@@ -1,1 +1,189 @@
-{}
+{
+    "basics": {
+        "name": "Keven do Nascimento Carneiro",
+        "label": "Data Scientist and NLP Researcher",
+        "image": "",
+        "email": "kevencarneiro@outlook.com",
+        "phone": "+55 (85) 98991-4569",
+        "url": "",
+        "summary": "A summary of Keven",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Fortaleza",
+            "countryCode": "BR",
+            "region": "CE"
+        },
+        "profiles": [
+            {
+                "network": "Linkedin",
+                "username": "kevencarneiro",
+                "url": "www.linkedin.com/in/kevencarneiro"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Instituto Atlântico",
+            "position": "Data Scientist",
+            "url": "https://company.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Data scientist"
+            ]
+        },
+        {
+            "name": "Instituto Atlântico",
+            "position": "Data Scientist",
+            "url": "https://company.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Data scientist"
+            ]
+        },
+        {
+            "name": "Instituto Atlântico",
+            "position": "Data Scientist",
+            "url": "https://company.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Data scientist"
+            ]
+        },
+        {
+            "name": "Instituto Atlântico",
+            "position": "Data Scientist",
+            "url": "https://company.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Data scientist"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "GNOME",
+            "position": "Volunteer",
+            "url": "https://gnome.org/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Volunteer Translator",
+            "highlights": []
+        }
+    ],
+    "education": [
+        {
+            "institution": "Federal Institute of Science, Technology and Education of Ceará",
+            "url": "https://www.ifce.edu.br/",
+            "area": "Computer Science",
+            "studyType": "Master",
+            "startDate": "2011-01-01",
+            "endDate": "2013-01-01",
+            "score": "4.0",
+            "courses": [
+                "Artificial Intelligence"
+            ]
+        },
+        {
+            "institution": "University of Fortaleza",
+            "url": "https://unifor.br/",
+            "area": "Systems Analysis and Development",
+            "studyType": "Bachelor",
+            "startDate": "2011-01-01",
+            "endDate": "2013-01-01",
+            "score": "4.0",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Portuguese",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Advanced"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Project",
+            "description": "Description…",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "keywords": [
+                "HTML"
+            ],
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "url": "https://project.com/",
+            "roles": [
+                "Team Lead"
+            ],
+            "entity": "Entity",
+            "type": "application"
+        }
+    ]
+}
