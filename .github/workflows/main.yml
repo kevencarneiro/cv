@@ -18,7 +18,7 @@ jobs:
       - uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
-          theme: flat
+          theme: standard-resume
           resume_filepath: resume.json
           output_filepath: index.html
       - name: Commit published HTML
