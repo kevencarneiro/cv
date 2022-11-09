@@ -6,185 +6,280 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 	
 	<title>Keven do Nascimento Carneiro</title>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-	
-	<style type="text/css">
-	@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
-);
-body {
-	background: #fff;
-	font-family: Lato, sans-serif;
-	margin: 0 0 80px;
-}
-a {
-	color: #2ecc71;
-}
-a:focus,
-a:hover {
-	color: #f1c40f;
-	text-decoration: none;
-}
-p {
-	line-height: 1.5;
-	margin: 0;
-}
-p + p {
-	margin-top: 10px;
-}
+
+	<style>
+	html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
 h1,
 h2,
 h3,
-h4 {
-	margin-top: 0
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
 section {
-	margin-top: 30px;
+  display: block;
 }
-li {
-	line-height: 1.8;
-	list-style: none;
+body {
+  line-height: 1.5;
 }
-li:before {
-	content: "\f052";
-	float: left;
-	font: 13px Octicons;
-	margin-top: 6px;
-	margin-left: -20px;
-	opacity: .1;
-	position: absolute;
+ol,
+ul {
+  list-style: none;
 }
-blockquote {
-	border-left: 5px solid #e7e9ec;
-	font-size: 14px;
+blockquote,
+q {
+  quotes: none;
 }
-em {
-	color: #95a5a6;
-	font-weight: normal;
-	font-style: normal;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
-h4 span:first-child {
-	color: #000;
-	font-weight: bold;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-.container {
-	max-width: 750px;
-	padding: 0 30px;
-}
-.col-sm-6 {
-	margin-bottom: 10px;
-}
-.col-sm-12 h4 {
-	margin-top: 12px; 
-}
-.col-sm-12 + .col-sm-12 {
-	margin-top: 30px;
-}
-#header {
-	background: #f4f6f6;
-	padding: 50px 0;
-	margin-bottom: 30px;
-}
-#header h2 {
-	color: #95a5a6;
-	font-size: 24px;
-}
-#content h3 {
-	color: #f1c40f;
-	font-size: 26px;
-	margin-top: -4px;
-}
-#content aside {
-	text-align: right;
-	padding-right: 30px;
-}
-#profiles .network {
-	text-transform: capitalize;
-}
-#work .position,
-#volunteer .position {
-	font-weight: bold;
-	margin-bottom: 8px;
-}
-#education .area {
-	font-weight: bold;
-}
-#education .area:before {
-	content: "\f0d7";
-	font: 16px Octicons;
-	margin-right: 6px;
-}
-#education .studyType {
-	margin-left: 25px;
-}
-#awards .summary,
-#publications .summary {
-	margin-top: 8px;
-}
-#publications .website a:before {
-	content: attr(href);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+html,
+button,
+input,
+textarea {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 480px) {
-	.strike-through {
-		border-top: 1px solid #f4f6f6;
-		height: 20px;
-		margin-top: 12px;
-		margin-bottom: -2px;
-		position: relative;
-	}
-	.strike-through span,
-	.strike-through a {
-		background: #fff;
-		position: absolute;
-	}
-	.strike-through span:first-child {
-		padding-right: 20px;
-		margin-top: -12px;
-	}
-	.strike-through span + span {
-		font-size: 14px;
-		margin-top: -10px;
-		padding-left: 20px;
-		right: 0;
-	}
+:root {
+  --text: #333333;
+  --headline: #c9cccf;
+  --sub-headline: #96999b;
+  --primary: rgb(207, 214, 255);
+  --secondary: rgb(238, 245, 255);
 }
-@media (max-width: 768px) {
-	.col-sm-6:last-child {
-		margin-bottom: 0px;
-	}
-	#content aside {
-		margin-bottom: 20px;
-		padding-right: 0;
-		text-align: left;
-	}
-	#publications .website a:before {
-		content: "View publication";
-	}
+
+body {
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  max-width: 600px;
+  color: var(--text);
 }
-@media (max-width: 480px) {
-	h1 {
-		font-size: 26px;
-	}
-	.date {
-		font-size: 14px;
-		margin-bottom: 5px;
-	}
-	.strike-through span:first-child {
-		margin-bottom: 7px;
-	}
-	.strike-through span {
-		display: block;
-	}	
-	#header {
-		margin-bottom: 10px;
-		padding: 40px 0;
-	}
-	#actions {
-		display: none;
-	}
+
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--headline);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+h3 {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  margin-top: 0.5rem;
+}
+
+h4 {
+  font-size: 14px;
+  color: var(--sub-headline);
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+}
+
+p,
+li {
+  margin-bottom: 0.25rem;
+  font-size: 14px;
+}
+
+a {
+  transition: box-shadow 160ms ease 0s;
+  box-shadow: var(--secondary) 0px -9px 0px inset;
+  border-bottom: 2px solid var(--primary);
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  box-shadow: var(--primary) 0px -1.2em 0px inset;
+}
+
+section ul {
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+  list-style: disc;
+}
+
+.contact {
+  padding-top: 2rem;
+}
+
+.contact span {
+  width: 100px;
+  display: inline-block;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.skills li {
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  padding: 0.25rem 1rem;
+  background-color: var(--secondary);
+  white-space: nowrap;
+}
+
+.position {
+  margin-bottom: 1.5rem;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.grey {
+  color: var(--sub-headline);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pdf {
+  color: var(--headline);
+  transition: color ease 160ms;
+  border: none;
+  box-shadow: none;
+}
+
+.pdf:hover {
+  box-shadow: none;
+  color: var(--sub-headline);
+}
+
+@media print {
+  body {
+    padding: 0rem;
+  }
+
+  section,
+  div {
+    page-break-inside: avoid;
+  }
+
+  .pdf {
+    display: none;
+  }
 }
 
 	</style>
@@ -192,354 +287,162 @@ h4 span:first-child {
 	</head>
 	<body>
 	
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-9 col-sm-push-3">
-					<h1>
-						Keven do Nascimento Carneiro
-					</h1>
-					<h2>
-						Data Scientist and NLP Researcher
-					</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="content" class="container">
-
-	<section id="contact" class="row">
-		<aside class="col-sm-3">
-			<h3>Contact</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<strong>Email</strong>
-				<div class="email">kevencarneiro@outlook.com</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Phone</strong>
-				<div class="phone">+55 (85) 98991-4569</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	<section id="about" class="row">
-		<aside class="col-sm-3">
-			<h3>About</h3>
-		</aside>
-		<div class="col-sm-9">
-			<p>A summary of Keven</p>
-		</div>
-	</section>
-	<section id="profiles" class="row">
-		<aside class="col-sm-3">
-			<h3>Profiles</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-				<div class="col-sm-6">
-					<strong class="network">
-						Linkedin
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="www.linkedin.com/in/kevencarneiro">kevencarneiro</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="work" class="row">
-		<aside class="col-sm-3">
-			<h3>Work</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2013-01-01 — 2014-01-01
-					</span>
-				</h4>
-				<div class="position">
-					Data Scientist
-				</div>
-				<div class="summary">
-					<p>Description…</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Data scientist</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2013-01-01 — 2014-01-01
-					</span>
-				</h4>
-				<div class="position">
-					Data Scientist
-				</div>
-				<div class="summary">
-					<p>Description…</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Data scientist</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2013-01-01 — 2014-01-01
-					</span>
-				</h4>
-				<div class="position">
-					Data Scientist
-				</div>
-				<div class="summary">
-					<p>Description…</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Data scientist</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2013-01-01 — 2014-01-01
-					</span>
-				</h4>
-				<div class="position">
-					Data Scientist
-				</div>
-				<div class="summary">
-					<p>Description…</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Data scientist</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="volunteer" class="row">
-		<aside class="col-sm-3">
-			<h3>Volunteer</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>GNOME</span>
-					<span class="date">
-						2012-01-01 — 2013-01-01
-					</span>
-				</h4>
-				<div class="position">
-					Volunteer
-				</div>
-				<div class="summary">
-					<p>Volunteer Translator</p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="education" class="row">
-		<aside class="col-sm-3">
-			<h3>Education</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Federal Institute of Science, Technology and Education of Ceará</span>
-					<span class="date">
-						2011-01-01 — 2013-01-01
-					</span>
-				</h4>
-				<div class="area">
-					Computer Science
-				</div>
-				<div class="studyType">
-					Master
-				</div>
-				<h4>Courses</h4>
-				<ul class="courses">
-					<li>Artificial Intelligence</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>University of Fortaleza</span>
-					<span class="date">
-						2011-01-01 — 2013-01-01
-					</span>
-				</h4>
-				<div class="area">
-					Systems Analysis and Development
-				</div>
-				<div class="studyType">
-					Bachelor
-				</div>
-				<h4>Courses</h4>
-				<ul class="courses">
-					<li>DB1101 - Basic SQL</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="awards" class="row">
-		<aside class="col-sm-3">
-			<h3>Awards</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Award</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					2014-11-01
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>Company</strong>
-				</div>
-				<div class="summary">
-					There is no spoon.
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="publications" class="row">
-		<aside class="col-sm-3">
-			<h3>Publications</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Publication</span>
-					<span class="date">
-						2014-10-01
-					</span>
-				</h4>
-				<div class="publisher">
-					<em>Published by</em>
-					<strong>Company</strong>
-				</div>
-				<div class="summary">
-					<p>Description…</p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="skills" class="row">
-		<aside class="col-sm-3">
-			<h3>Skills</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Web Development</h4>
-				</div>
-				<ul class="keywords">
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="languages" class="row">
-		<aside class="col-sm-3">
-			<h3>Languages</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>Portuguese</strong>
-				</div>
-				<div class="fluency">
-					Native speaker
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>English</strong>
-				</div>
-				<div class="fluency">
-					Advanced
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="interests" class="row">
-		<aside class="col-sm-3">
-			<h3>Interests</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Wildlife</h4>
-				</div>
-				<ul class="keywords">
-					<li>Ferrets</li>
-					<li>Unicorns</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="references" class="row">
-		<aside class="col-sm-3">
-			<h3>References</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>Reference…</p>
-					<p class="name">
-						<strong>— Jane Doe</strong>
-					</p>
-				</blockquote>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	</div>
-	
+	<div id="resume">
+		  <div class="header">
+		    <h1>Keven do Nascimento Carneiro</h1>
+		  </div>
+		  
+		  <p>Data Scientist and NLP Researcher</p>
+		
+		    <p class="grey">
+		      Fortaleza, BR
+		
+		        | kevencarneiro@outlook.com
+		
+		    </p>
+		
+		    <p class="grey">A summary of Keven</p>
+		
+				<section class="position">
+						<h2>Work Experience</h2>
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Data Scientist
+						
+						    |
+						    Jan 2013
+						  
+						    -
+						    Jan 2014
+						</h4>
+						
+						  <div class="summary">
+						    <p>Description…</p>
+						  </div>
+						
+						  <ul class="highlights">
+						      <li>Data scientist</li>
+						  </ul>
+				</section>
+				<section class="position">
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Data Scientist
+						
+						    |
+						    Jan 2013
+						  
+						    -
+						    Jan 2014
+						</h4>
+						
+						  <div class="summary">
+						    <p>Description…</p>
+						  </div>
+						
+						  <ul class="highlights">
+						      <li>Data scientist</li>
+						  </ul>
+				</section>
+				<section class="position">
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Data Scientist
+						
+						    |
+						    Jan 2013
+						  
+						    -
+						    Jan 2014
+						</h4>
+						
+						  <div class="summary">
+						    <p>Description…</p>
+						  </div>
+						
+						  <ul class="highlights">
+						      <li>Data scientist</li>
+						  </ul>
+				</section>
+				<section class="position">
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Data Scientist
+						
+						    |
+						    Jan 2013
+						  
+						    -
+						    Jan 2014
+						</h4>
+						
+						  <div class="summary">
+						    <p>Description…</p>
+						  </div>
+						
+						  <ul class="highlights">
+						      <li>Data scientist</li>
+						  </ul>
+				</section>
+		    <section class='position'>
+		        <h2>Projects</h2>
+		      <h3>
+		          Publication
+		      </h3>
+		
+		      <h4>
+		        Company
+		          |
+		          Oct 2014
+		      </h4>
+		
+		        <p>Description…</p>
+		    </section>
+		  <h2>Languages</h2>
+		  <section class='position languages'>
+		      <div>
+		        <p> Portuguese </p>
+		        <p class='grey'> Native speaker </p>
+		      </div>
+		      <div>
+		        <p> English </p>
+		        <p class='grey'> Advanced </p>
+		      </div>
+		  </section>
+				<section class="position">
+						<h2>Education</h2>
+					<h3>Federal Institute of Science, Technology and Education of Ceará</h3>
+					<h4>
+						Master, Computer Science
+						  |
+						  Jan 2011
+						
+						  -
+						  Jan 2013
+					</h4>
+				</section>
+				<section class="position">
+					<h3>University of Fortaleza</h3>
+					<h4>
+						Bachelor, Systems Analysis and Development
+						  |
+						  Jan 2011
+						
+						  -
+						  Jan 2013
+					</h4>
+				</section>
 	</body>
 </html>
