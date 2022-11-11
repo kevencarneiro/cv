@@ -6,7 +6,37 @@
         "email": "kevencarneiro@outlook.com",
         "phone": "+55 (85) 98991-4569",
         "url": "",
-        "summary": "A summary of Keven",
+        "summary": "Data Scientist currently working in a research project that involves:
+        * Artificial Intelligence (AI) and Machine Learning (ML) for classification
+        * Natural Language Processing (NLP)
+        * End-to-end cycle of research projects, from understanding the customer's need together with the business team, analyzing the best techniques according to the most recent articles in the area, construction and validation of models, CI/CD automation, cloud deployment of machine learning models and monitoring of the application in production.
+        
+        Other secondary but relevant skills involve Cloud Computing (Azure and AWS), Kubernetes and knowledge of good software architecture practices.
+        
+        I like to contribute to open source tools whenever possible.
+        
+        Professionally or academically, some topics of interest are:
+        * Supervised learning
+        * Natural Language Processing
+        * Transformers models (like BERT)
+        * Semi-supervised learning
+        * Neural networks
+        * Convolutional Neural Networks
+        * Explainable AI (XAI)
+        
+        The main tools that are used (another specific tools may be used as needed):
+        * Python
+        * spaCy
+        * Hugginface models
+        * NLTK
+        * Numpy
+        * Pandas
+        * sklearn
+        * FastAPI
+        * gensim
+        * Tensorflow
+        * Pytorch
+        * plotly",
         "location": {
             "address": "",
             "postalCode": "",
@@ -26,7 +56,36 @@
         {
             "name": "Instituto Atlântico",
             "position": "Data Scientist",
-            "url": "https://company.com",
+            "url": "https://www.atlantico.com.br",
+            "startDate": "2021-03-01",
+            "endDate": "now",
+            "summary": "",
+            "highlights": []
+        },
+        {
+            "name": "Instituto Atlântico",
+            "position": "Data Scientist",
+            "url": "https://www.atlantico.com.br",
+            "startDate": "2018-11-05",
+            "endDate": "2021-03-01",
+            "summary": "",
+            "highlights": []
+        },
+        {
+            "name": "Fortes Tecnologia",
+            "position": "Software Engineer | DevOps",
+            "url": "https://fortestecnologia.com.br",
+            "startDate": "2013-01-01",
+            "endDate": "2017-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Data scientist"
+            ]
+        },
+        {
+            "name": "SAS Plataforma de Educação",
+            "position": "Web Developer",
+            "url": "https://saseducacao.com.br",
             "startDate": "2013-01-01",
             "endDate": "2014-01-01",
             "summary": "Description…",
@@ -35,9 +94,9 @@
             ]
         },
         {
-            "name": "Instituto Atlântico",
-            "position": "Data Scientist",
-            "url": "https://company.com",
+            "name": "SAS Plataforma de Educação",
+            "position": "Web Designer",
+            "url": "https://saseducacao.com.br",
             "startDate": "2013-01-01",
             "endDate": "2014-01-01",
             "summary": "Description…",
@@ -46,9 +105,9 @@
             ]
         },
         {
-            "name": "Instituto Atlântico",
-            "position": "Data Scientist",
-            "url": "https://company.com",
+            "name": "SAS Plataforma de Educação",
+            "position": "Cominucation Intern",
+            "url": "https://saseducacao.com.br",
             "startDate": "2013-01-01",
             "endDate": "2014-01-01",
             "summary": "Description…",
@@ -56,17 +115,6 @@
                 "Data scientist"
             ]
         },
-        {
-            "name": "Instituto Atlântico",
-            "position": "Data Scientist",
-            "url": "https://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description…",
-            "highlights": [
-                "Data scientist"
-            ]
-        }
     ],
     "volunteer": [
         {
@@ -115,9 +163,21 @@
     ],
     "certificates": [
         {
-            "name": "Certificate",
+            "name": "Microsoft Certified Azure Data Scientist - Associate",
+            "date": "2021-05-01",
+            "issuer": "Microsoft",
+            "url": "https://certificate.com"
+        },
+        {
+            "name": "Huawei ICT AI - Associate",
             "date": "2021-11-07",
-            "issuer": "Company",
+            "issuer": "Huawei",
+            "url": ""
+        },
+        {
+            "name": "Azure Data Scientist - Associate",
+            "date": "2021-11-07",
+            "issuer": "Microsoft",
             "url": "https://certificate.com"
         }
     ],
@@ -153,11 +213,8 @@
     ],
     "interests": [
         {
-            "name": "Wildlife",
-            "keywords": [
-                "Ferrets",
-                "Unicorns"
-            ]
+            "name": "NLP",
+            "keywords": []
         }
     ],
     "references": [
